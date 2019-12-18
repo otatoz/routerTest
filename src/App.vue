@@ -1,8 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">影音娱乐界面</router-link> |
+      <router-link to="/play">影音播放</router-link> |
+      <router-link to="/control">投影控制</router-link> |
+      <router-link to="/sence">情景模式</router-link> |
+      <router-link to="/equipment">设备调节</router-link> |
+      <router-link to="/functionList">功能菜单</router-link>
     </div>
     <router-view/>
   </div>
@@ -13,7 +17,6 @@
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
